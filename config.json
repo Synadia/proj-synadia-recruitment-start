@@ -1,0 +1,21 @@
+{
+  "mqtt": {
+    "endpoint": "a69unzvys3oht-ats.iot.eu-west-1.amazonaws.com",
+    "port": 8883,
+    "protocol": "mqtts",
+    "clientId": "YOUR_LINE_ID_HERE",
+    "ca": "./certs/AmazonRootCA1.pem",
+    "cert": "./certs/certificate.pem.crt",
+    "key": "./certs/private.pem.key"
+  },
+  "factory": {
+    "assignedLine": "YOUR_LINE_ID_HERE",
+    "machineTypes": [
+      "die-saw",
+      "die-bonder",
+      "wire-bonder",
+      "mold-press",
+      "trim-form"
+    ]
+  }
+}
